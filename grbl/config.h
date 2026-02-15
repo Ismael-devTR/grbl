@@ -170,7 +170,7 @@
 // NOTE: If VARIABLE_SPINDLE is enabled(default), this option has no effect as the PWM output and 
 // spindle enable are combined to one pin. If you need both this option and spindle speed PWM, 
 // uncomment the config option USE_SPINDLE_DIR_AS_ENABLE_PIN below.
-// #define INVERT_SPINDLE_ENABLE_PIN // Default disabled. Uncomment to enable.
+#define INVERT_SPINDLE_ENABLE_PIN // Default disabled. Uncomment to enable.
 
 // Enable control pin states feedback in status reports. The data is presented as simple binary of
 // the control pin port (0 (low) or 1(high)), masked to show only the input pins. Non-control pins on the 
